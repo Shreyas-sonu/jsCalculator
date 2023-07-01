@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+section{
+    width: 100%;
+    /* margin: 0 auto; */
+    padding-top: 5%;
+}
+section>article{
+    width: 18%;
+    margin: 0 auto;
+    text-align: center;
+    border: 2px solid;
+    background-color: rgb(118, 139, 140);
+    border-radius: 20px 20px 10px 10px;
+}
+button{
+    padding: 7px;
+    width: 6vw;
+    width: 5vh;
+    margin: 8px;
+    cursor: pointer;
+    background-color: lightblue;
+    transition: 0.2s all ease-in-out;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: cornflowerblue;
+    transition: 0.2s all ease-in-out;
+}
+input{
+    border-radius: 10px;
+    height: 5vh;
+    margin-bottom: 5%;
+    margin-top: 4%;
+    padding-left: 10px;
+    background-color: aquamarine;
+}
+.num,.opn{
+    cursor: not-allowed;
+}
+h4{
+    text-align: left;
+    padding-left: 20px;
+    color: crimson;
+    font-style: italic;
+    font-family: cursive;
+}

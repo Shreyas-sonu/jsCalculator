@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calc2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section>
+        <article>
+        <input type="text" disabled placeholder="0">
+        <h4>Menoj's calc</h4>
+        <div>
+            <button id="back" onclick="bac()"><i class="fa-solid fa-delete-left"></i></button>
+            <button id="cube" onclick="cbrt()">x<sup><small>3</small></sup></button>
+            <button id="reset">C</button>
+            <!-- <i class="fa-solid fa-rotate-right"></i> -->
+        </div>
+        <div class="num">
+            <button class="num1">1</button>
+            <button class="num1">2</button>
+            <button class="num1">3</button><br>
+            <button class="num1">4</button>
+            <button class="num1">5</button>
+            <button class="num1">6</button><br>
+            <button class="num1">7</button>
+            <button class="num1">8</button>
+            <button class="num1">9</button><br>
+            <button class="num1">.</button>
+            <button class="num1">0</button>
+            <button>+</button><br>
+            <button>-</button>
+            <button>*</button>
+            <button>/</button>
+        </div>
+        <div>
+            <button id="sqr" onclick="sqrt()">x<sup><small>2</small></sup></button>
+            <button id="res" style="width:6vw;">=</button>
+        </div>
+        </article>
+    </section>
+    <script src="./clac2.js"></script>
+</body>
+</html>
